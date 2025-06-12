@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <!-- header begins -->
+ <header class="bg-[#f85606] text-white">
+  <!-- 🔶 Top Navigation -->
+  <div class="container mx-auto flex flex-wrap items-center justify-between p-4">
+
+    <!-- 🔰 Daraz Logo -->
+    <a href="#" class="flex items-center">
+      <img src="https://lzd-img-global.slatic.net/us/domino/3b870cb043c7f8a9741cbf66329e294e.png" 
+           alt="Daraz Logo" class="h-8 md:h-10 w-auto">
+    </a>
+
+    <!-- 🔍 White Search Bar -->
+    <div class="flex w-full md:w-1/2 max-w-xl my-2 md:my-0">
+      <input 
+        type="text" 
+        placeholder="Search in Daraz"
+        class="w-full px-4 py-2 bg-white text-gray-900 rounded-l-md focus:outline-none"
+      />
+      <button 
+        class="bg-[#f85606] text-white px-4 py-2 rounded-r-md hover:bg-orange-600 transition">
+        Search
+      </button>
+    </div>
+
+    <!-- 👤 User Actions -->
+    <div class="flex space-x-4 text-sm font-medium">
+      <a href="#" class="hover:underline">Login</a>
+      <span>|</span>
+      <a href="#" class="hover:underline">Sign Up</a>
+      <a href="#" class="relative ml-4">
+        <!-- 🛒 Cart Icon -->
+        <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" stroke-width="2" 
+             viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" 
+                d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 7M7 13l-2 9h14l-2-9M10 21a2 2 0 100-4 2 2 0 000 4zm8 0a2 2 0 100-4 2 2 0 000 4z" />
+        </svg>
+        <span class="absolute -top-2 -right-2 bg-red-600 text-white text-xs rounded-full px-1">2</span>
+      </a>
+    </div>
+  </div>
+
+  <!-- 🔶 Category Navigation -->
+  <nav class="bg-[#f85606] text-white text-sm">
+    <div class="container mx-auto flex space-x-4 px-4 py-2">
+      <a href="#" class="hover:underline">Groceries</a>
+      <a href="#" class="hover:underline">Fashion</a>
+      <a href="#" class="hover:underline">Phones & Tablets</a>
+      <a href="#" class="hover:underline">Electronics</a>
+      <a href="#" class="hover:underline">Home & Living</a>
+      <a href="#" class="hover:underline">Beauty</a>
+      <a href="#" class="hover:underline">Sports</a>
+      <a href="#" class="hover:underline">More</a>
+    </div>
+  </nav>
+</header>
+
+
+
+
+
+
+<!-- header end -->
+
+<!-- ecommerce begin -->
+ <section class="bg-white text-gray-800 body-font">
+  <div class="container px-5 py-16 mx-auto">
+    <h2 class="text-2xl font-semibold mb-6">Flash Sale</h2>
+
+    <div class="flex flex-wrap -m-4">
+
+      <!-- Product 1 -->
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-52 rounded overflow-hidden border hover:shadow-md transition">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA_kpy3rqW-49LPwyynQTfBlHu0g_w098xEA&s" />
+        </a>
+        <div class="mt-2">
+          <h3 class="text-xs text-gray-500 uppercase tracking-wider">Sunsilk Shampoo Long & Healthy - 80ML</h3>
+          <h2 class="text-base font-medium text-gray-900"></h2>
+          <p class="mt-1 text-[#f85606] font-semibold">Rs. 169</p>
+        </div>
+      </div>
+
+    <!-- Product 2 -->
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-52 rounded overflow-hidden border hover:shadow-md transition">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full" src="https://img.drz.lazcdn.com/static/pk/p/559b5916faa20c86010492ed06acebe6.jpg_720x720q80.jpg" />
+        </a>
+        <div class="mt-2">
+          <h3 class="text-xs text-gray-500 uppercase tracking-wider">Fashion</h3>
+          <h2 class="text-base font-medium text-gray-900">Orignal P47 Wireless Headset Bluetooth Foldable On-Ear Headphone Wireless Earbuds Invisible Ultra Small Bluetooth Handfree for all cell phones
+</h2>
+          <p class="mt-1 text-[#f85606] font-semibold">Rs. 749
+</p>
+        </div>
+      </div>
+
+      <!-- Product 3 -->
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-52 rounded overflow-hidden border hover:shadow-md transition">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full" src="https://video-play.daraz.com.bd/cover/2918487.jpg" />
+        </a>
+        <div class="mt-2">
+          <h3 class="text-xs text-gray-500 uppercase tracking-wider">Home</h3>
+          <h2 class="text-base font-medium text-gray-900">SP Dealz Counter 10KG To 60KG Weight Adjustable Professional Counter Hand Gripper for Men & Women | Counter Hand Grip|Finger Exerciser|Power Gripper</h2>
+          <p class="mt-1 text-[#f85606] font-semibold">Rs. 349</p>
+        </div>
+      </div>
+
+      <!-- Product 4 -->
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-52 rounded overflow-hidden border hover:shadow-md transition">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full" src="https://img.drz.lazcdn.com/static/pk/p/2d18873962775f2051bf3b5b334deebb.jpg_720x720q80.jpg_.webp" />
+        </a>
+        <div class="mt-2">
+          <h3 class="text-xs text-gray-500 uppercase tracking-wider"></h3>
+          <h2 class="text-base font-medium text-gray-900">M10 , A6s , F2 earbuds Headphones,Handfree,EarPhone, Bluetooth Neckband Magnetic Earphones Sport Running Earbuds Waterproof Bluetooth 5.2 Headset With Mic, SM Trader</h2>
+          <p class="mt-1 text-[#f85606] font-semibold">Rs. 364</p>
+        </div>
+      </div>
+
+      <!-- Product 5 -->
+      <div class="lg:w-1/5 md:w-1/2 p-4 w-full">
+        <a class="block relative h-52 rounded overflow-hidden border hover:shadow-md transition">
+          <img alt="ecommerce" class="object-cover object-center w-full h-full" src="https://hadielectronics.com.pk/wp-content/uploads/2023/03/Dawlance-Mega-T3-Inverter-15-1-Ton-Air-Conditioner-600x598.jpg" />
+        </a>
+        <div class="mt-2">
+          
+          <h2 class="text-base font-medium text-gray-900">Dawlance Air Conditioner Mega T+ 10 DC Inverter 0.75 Ton / Split AC / Cool Only / 8000 BTU</h2>
+          <p class="mt-1 text-[#f85606] font-semibold">Rs. 86,020</p>
+        </div>
+      </div>
+
+
+
+      
+
+    </div>
+  </div>
+</section>
+  </body>
+</html>
